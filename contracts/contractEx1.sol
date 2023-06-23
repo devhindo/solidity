@@ -9,6 +9,10 @@ contract Counter {
     event Increment(uint value);
     event Decrement(uint value);
 
+    function getCount() view public returns(uint) {
+        return count;
+    }
+
     constructor() {
         count = 0;
     }
