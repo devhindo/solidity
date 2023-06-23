@@ -4,7 +4,7 @@ pragma solidity 0.8.19;
 
 contract Counter {
     // all the smart contract source code
-    uint count;
+    uint public count;
     
     event Increment(uint value);
     event Decrement(uint value);
