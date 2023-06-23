@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.19;
 
-
 contract Counter {
     // all the smart contract source code
     uint public count;
@@ -26,7 +25,4 @@ contract Counter {
         count -= 1;
         emit Decrement(count);
     }
-
-
-
 }
