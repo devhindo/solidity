@@ -1,4 +1,6 @@
-pragma solidity^0.8.0;
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+
 
 contract Counter {
     // all the smart contract source code
@@ -20,4 +22,7 @@ contract Counter {
         count -= 1;
         emit Decrement(count);
     }
+
+
+
 }
